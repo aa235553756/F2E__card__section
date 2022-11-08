@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply mr-[21px] block
+     shrink-0
+      rounded-[100px] 
+      bg-primary02 py-4 
+      px-6 
+      text-sm 
+
+      sm:px-10 
+      md:text-xl
+      lg:px-8
+      lg:hover:opacity-50 
+      lg:hover:duration-300 
+      lg:hover:ease-in-out;
+  }
+}
+
+@layer utilities {
+  .writing-lr {
+    writing-mode: vertical-lr;
+  }
+  .container-sm{
+    max-width: 856px;
+    margin: 0 auto;
+  }
+}
