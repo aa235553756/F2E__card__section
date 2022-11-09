@@ -900,6 +900,10 @@ body {
   transform: none;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .touch-auto {
   touch-action: auto;
 }
@@ -1657,6 +1661,21 @@ body {
   border-bottom-left-radius: 0.25rem;
 }
 
+.rounded-l-lg {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.rounded-l-\[10px\] {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.rounded-t-\[10px\] {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 .rounded-tl {
   border-top-left-radius: 0.25rem;
 }
@@ -1774,6 +1793,11 @@ body {
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
@@ -1929,16 +1953,17 @@ body {
   padding-bottom: 0.5rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .pl-4 {
   padding-left: 1rem;
 }
 
 .pr-\[21px\] {
   padding-right: 21px;
-}
-
-.pl-8 {
-  padding-left: 2rem;
 }
 
 .text-left {
